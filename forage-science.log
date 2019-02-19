@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.1.14)  18 FEB 2019 17:44
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.1.14)  19 FEB 2019 10:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -145,10 +145,10 @@ Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
 (/Users/youngjunna/Library/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xpars
 e.sty (/Users/youngjunna/Library/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.st
 y
-Package: expl3 2019-01-01 L3 programming layer (loader) 
+Package: expl3 2019-02-15 L3 programming layer (loader) 
 
 (/Users/youngjunna/Library/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3-code.tex
-Package: expl3 2019-01-01 L3 programming layer (code)
+Package: expl3 2019-02-15 L3 programming layer (code)
 \c_max_int=\count102
 \l_tmpa_int=\count103
 \l_tmpb_int=\count104
@@ -274,9 +274,12 @@ Package: expl3 2019-01-01 L3 programming layer (code)
 \l__coffin_aligned_internal_coffin=\box38
 \l_tmpa_coffin=\box39
 \l_tmpb_coffin=\box40
-\l__coffin_display_coffin=\box41
-\l__coffin_display_coord_coffin=\box42
-\l__coffin_display_pole_coffin=\box43
+\g_tmpa_coffin=\box41
+\g_tmpb_coffin=\box42
+\c__coffin_empty_coffin=\box43
+\l__coffin_display_coffin=\box44
+\l__coffin_display_coord_coffin=\box45
+\l__coffin_display_pole_coffin=\box46
 \l__coffin_display_offset_dim=\dimen134
 \l__coffin_display_x_dim=\dimen135
 \l__coffin_display_y_dim=\dimen136
@@ -291,7 +294,7 @@ Package: expl3 2019-01-01 L3 programming layer (code)
 )
 (/Users/youngjunna/Library/TinyTeX/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.de
 f
-File: l3xdvidpfmx.def 2019-01-01 v L3 Experimental driver: xdvipdfmx
+File: l3xdvipdfmx.def 2019-02-15 v L3 Experimental driver: xdvipdfmx
 \g__driver_image_int=\count181
 \g__driver_pdf_object_int=\count182
 ))
@@ -302,20 +305,23 @@ Package: xparse 2018-10-17 L3 Experimental document command parser
 \l__xparse_mandatory_args_int=\count186
 \l__xparse_v_nesting_int=\count187
 )
-Package: fontspec 2019/01/10 v2.6j Font selection for XeLaTeX and LuaLaTeX
+Package: fontspec 2019/02/12 v2.7b Font selection for XeLaTeX and LuaLaTeX
 
 (/Users/youngjunna/Library/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec-xetex
 .sty
-Package: fontspec-xetex 2019/01/10 v2.6j Font selection for XeLaTeX and LuaLaTe
+Package: fontspec-xetex 2019/02/12 v2.7b Font selection for XeLaTeX and LuaLaTe
 X
 \l__fontspec_script_int=\count188
 \l__fontspec_language_int=\count189
 \l__fontspec_strnum_int=\count190
 \l__fontspec_tmp_int=\count191
-\l__fontspec_em_int=\count192
-\l__fontspec_emdef_int=\count193
-\l__fontspec_strong_int=\count194
-\l__fontspec_strongdef_int=\count195
+\l__fontspec_tmpa_int=\count192
+\l__fontspec_tmpb_int=\count193
+\l__fontspec_tmpc_int=\count194
+\l__fontspec_em_int=\count195
+\l__fontspec_emdef_int=\count196
+\l__fontspec_strong_int=\count197
+\l__fontspec_strongdef_int=\count198
 \l__fontspec_tmpa_dim=\dimen144
 \l__fontspec_tmpb_dim=\dimen145
 \l__fontspec_tmpc_dim=\dimen146
@@ -326,13 +332,12 @@ File: tuenc.def 2018/08/11 v2.0j Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding TU on input line 82.
 )) (/Users/youngjunna/Library/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.cf
 g)
-LaTeX Info: Redefining \itshape on input line 3944.
-LaTeX Info: Redefining \slshape on input line 3949.
-LaTeX Info: Redefining \scshape on input line 3954.
-LaTeX Info: Redefining \upshape on input line 3959.
-LaTeX Info: Redefining \em on input line 3989.
-LaTeX Info: Redefining \emph on input line 4014.
-LaTeX Info: Redefining \- on input line 4068.
+LaTeX Info: Redefining \itshape on input line 4044.
+LaTeX Info: Redefining \slshape on input line 4049.
+LaTeX Info: Redefining \scshape on input line 4054.
+LaTeX Info: Redefining \upshape on input line 4059.
+LaTeX Info: Redefining \em on input line 4089.
+LaTeX Info: Redefining \emph on input line 4114.
 )) (/Users/youngjunna/Library/TinyTeX/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 (/Users/youngjunna/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/xkeyval.tex (
@@ -340,12 +345,12 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@toks=\toks20
 \XKV@tempa@toks=\toks21
 (/Users/youngjunna/Library/TinyTeX/texmf-dist/tex/generic/xkeyval/keyval.tex))
-\XKV@depth=\count196
+\XKV@depth=\count199
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-\c@eu@=\count197
-\c@eu@i=\count198
-\c@mkern=\count199
+\c@eu@=\count266
+\c@eu@i=\count267
+\c@mkern=\count268
 ) (/Users/youngjunna/Library/TinyTeX/texmf-dist/tex/latex/upquote/upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
@@ -438,9 +443,9 @@ Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-\Gm@cnth=\count266
-\Gm@cntv=\count267
-\c@Gm@tempcnt=\count268
+\Gm@cnth=\count269
+\Gm@cntv=\count270
+\c@Gm@tempcnt=\count271
 \Gm@bindingoffset=\dimen147
 \Gm@wd@mp=\dimen148
 \Gm@odd@mp=\dimen149
@@ -503,12 +508,12 @@ y
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen155
-\Hy@linkcounter=\count269
-\Hy@pagecounter=\count270
+\Hy@linkcounter=\count272
+\Hy@pagecounter=\count273
 (/Users/youngjunna/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count271
+\Hy@SavedSpaceFactor=\count274
 
 (/Users/youngjunna/Library/TinyTeX/texmf-dist/tex/latex/latexconfig/hyperref.cf
 g
@@ -521,14 +526,14 @@ Package hyperref Info: Plain pages OFF on input line 4534.
 Package hyperref Info: Backreferencing OFF on input line 4539.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4772.
-\c@Hy@tempcnt=\count272
+\c@Hy@tempcnt=\count275
 (/Users/youngjunna/Library/TinyTeX/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5125.
 \XeTeXLinkMargin=\dimen156
-\Fld@menulength=\count273
+\Fld@menulength=\count276
 \Field@Width=\dimen157
 \Fld@charsize=\dimen158
 Package hyperref Info: Hyper figures OFF on input line 6380.
@@ -540,9 +545,9 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6405.
 Package hyperref Info: PDF/A mode OFF on input line 6410.
 LaTeX Info: Redefining \ref on input line 6450.
 LaTeX Info: Redefining \pageref on input line 6454.
-\Hy@abspage=\count274
-\c@Item=\count275
-\c@Hfootnote=\count276
+\Hy@abspage=\count277
+\c@Item=\count278
+\c@Hfootnote=\count279
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 (/Users/youngjunna/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hxetex.def
@@ -555,11 +560,11 @@ y
 Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO
 )
 )
-\pdfm@box=\box44
-\c@Hy@AnnotLevel=\count277
-\HyField@AnnotCount=\count278
-\Fld@listcount=\count279
-\c@bookmark@seq@number=\count280
+\pdfm@box=\box47
+\c@Hy@AnnotLevel=\count280
+\HyField@AnnotCount=\count281
+\Fld@listcount=\count282
+\c@bookmark@seq@number=\count283
 
 (/Users/youngjunna/Library/TinyTeX/texmf-dist/tex/latex/oberdiek/rerunfilecheck
 .sty
@@ -582,23 +587,23 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip53
 \bibsep=\skip54
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count281
+\c@NAT@ctr=\count284
 ) (/Users/youngjunna/Library/TinyTeX/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
 \LTleft=\skip55
 \LTright=\skip56
 \LTpre=\skip57
 \LTpost=\skip58
-\LTchunksize=\count282
+\LTchunksize=\count285
 \LTcapwidth=\dimen159
-\LT@head=\box45
-\LT@firsthead=\box46
-\LT@foot=\box47
-\LT@lastfoot=\box48
-\LT@cols=\count283
-\LT@rows=\count284
-\c@LT@tables=\count285
-\c@LT@chunks=\count286
+\LT@head=\box48
+\LT@firsthead=\box49
+\LT@foot=\box50
+\LT@lastfoot=\box51
+\LT@cols=\count286
+\LT@rows=\count287
+\c@LT@tables=\count288
+\c@LT@chunks=\count289
 \LT@p@ftn=\toks23
 ) (/Users/youngjunna/Library/TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
@@ -612,12 +617,12 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \cmidrulesep=\dimen167
 \cmidrulekern=\dimen168
 \defaultaddspace=\dimen169
-\@cmidla=\count287
-\@cmidlb=\count288
+\@cmidla=\count290
+\@cmidlb=\count291
 \@aboverulesep=\dimen170
 \@belowrulesep=\dimen171
-\@thisruleclass=\count289
-\@lastruleclass=\count290
+\@thisruleclass=\count292
+\@lastruleclass=\count293
 \@thisrulewidth=\dimen172
 ) (/Users/youngjunna/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
@@ -658,10 +663,19 @@ LaTeX Warning: Label `--' multiply defined.
 LaTeX Warning: Label `--' multiply defined.
 
 
+LaTeX Warning: Label `--' multiply defined.
+
+
 LaTeX Warning: Label `-' multiply defined.
 
 
-LaTeX Warning: Label `--' multiply defined.
+LaTeX Warning: Label `-' multiply defined.
+
+
+LaTeX Warning: Label `-' multiply defined.
+
+
+LaTeX Warning: Label `-' multiply defined.
 
 )
 \openout1 = `forage-science.aux'.
@@ -724,7 +738,7 @@ LaTeX Font Info:    ... okay on input line 92.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box49
+\AtBeginShipoutBox=\box52
 Package hyperref Info: Link coloring OFF on input line 92.
 (/Users/youngjunna/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -733,7 +747,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ng.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count291
+\c@section@level=\count294
 )
 LaTeX Info: Redefining \ref on input line 92.
 LaTeX Info: Redefining \pageref on input line 92.
@@ -750,6 +764,9 @@ Missing character: There is no 료 in font [lmroman17-regular]:mapping=tex-text;
 Missing character: There is no 작 in font [lmroman17-regular]:mapping=tex-text;!
 Missing character: There is no 물 in font [lmroman17-regular]:mapping=tex-text;!
 Missing character: There is no 학 in font [lmroman17-regular]:mapping=tex-text;!
+Missing character: There is no 조 in font [lmroman12-italic]:mapping=tex-text;!
+Missing character: There is no 무 in font [lmroman12-italic]:mapping=tex-text;!
+Missing character: There is no 환 in font [lmroman12-italic]:mapping=tex-text;!
 Missing character: There is no 나 in font [lmroman12-italic]:mapping=tex-text;!
 Missing character: There is no 영 in font [lmroman12-italic]:mapping=tex-text;!
 Missing character: There is no 준 in font [lmroman12-italic]:mapping=tex-text;!
@@ -838,11 +855,19 @@ Missing character: There is no 학 in font [lmroman10-regular]:mapping=tex-text;
 Missing character: There is no 적 in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no 분 in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no 류 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 형 in font [lmroman10-bold]:mapping=tex-text;!
-Missing character: There is no 태 in font [lmroman10-bold]:mapping=tex-text;!
-Missing character: There is no 적 in font [lmroman10-bold]:mapping=tex-text;!
-Missing character: There is no 특 in font [lmroman10-bold]:mapping=tex-text;!
-Missing character: There is no 성 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 벼 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 과 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 및 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 콩 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 과 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 작 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 물 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 벼 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 과 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 사 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 료 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 작 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 물 in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no 사 in font [lmroman10-bold]:mapping=tex-text;!
 Missing character: There is no 료 in font [lmroman10-bold]:mapping=tex-text;!
 Missing character: There is no 작 in font [lmroman10-bold]:mapping=tex-text;!
@@ -1349,27 +1374,27 @@ Missing character: There is no 의 in font [lmroman12-bold]:mapping=tex-text;!
 Missing character: There is no 한 in font [lmroman12-bold]:mapping=tex-text;!
 Missing character: There is no 분 in font [lmroman12-bold]:mapping=tex-text;!
 Missing character: There is no 류 in font [lmroman12-bold]:mapping=tex-text;!
-Missing character: There is no 모 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 든 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 분 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 류 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 방 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 법 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 중 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 가 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 장 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 널 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 리 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 이 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 용 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 되 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 는 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 분 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 류 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 밥 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 법 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 이 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 다 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 모 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 든 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 분 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 류 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 방 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 법 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 중 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 가 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 장 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 널 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 리 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 이 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 용 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 되 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 는 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 분 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 류 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 방 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 법 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 이 in font [lmroman10-bold]:mapping=tex-text;!
+Missing character: There is no 다 in font [lmroman10-bold]:mapping=tex-text;!
 Missing character: There is no 식 in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no 물 in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no 의 in font [lmroman10-regular]:mapping=tex-text;!
@@ -2322,23 +2347,441 @@ Missing character: There is no 류 in font [lmromanslant10-regular]:mapping=tex-
 ext;!
 [8]
 Chapter 3.
+Missing character: There is no 벼 in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no 과 in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no 및 in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no 콩 in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no 과 in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no 작 in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no 물 in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no 벼 in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no 과 in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no 사 in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no 료 in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no 작 in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no 물 in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no 가 in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no 축 in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no 사 in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no 료 in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no 로 in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no 서 in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no 의 in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no 중 in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no 요 in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no 성 in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no 기 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 호 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 성 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 이 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 우 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 수 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 하 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 고 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 영 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 양 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 가 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 가 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 높 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 다 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 방 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 목 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 지 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 나 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 채 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 초 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 지 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 의 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 사 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 초 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 로 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 써 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 그 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 가 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 치 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 가 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 높 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 다 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 방 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 목 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 과 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 채 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 초 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 시 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 견 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 디 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 는 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 힘 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 이 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 가 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 장 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 강 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 하 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 다 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 전 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 세 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 계 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 적 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 으 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 로 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 가 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 장 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 널 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 리 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 분 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 포 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 하 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 고 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 있 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 다 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 屬 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 種 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 가 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 장 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 우 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 세 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 하 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 게 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 자 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 라 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 며 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 중 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 요 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 곡 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 류 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 의 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 대 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 부 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 분 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 을 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 차 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 지 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 한 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 다 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 벼 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 과 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 를 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 라 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 부 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 르 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 며 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 벼 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 과 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 와 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 대 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 과 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 로 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 나 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 누 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 기 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 도 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 한 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 다 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 영 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 어 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 로 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 는 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 라 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 하 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 나 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 禾 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 穀 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 類 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 를 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 포 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 함 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 할 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 때 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 는 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 라 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 한 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 다 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 일 in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no 반 in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no 적 in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no 특 in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no 성 in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no 뿌 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 리 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 根 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 系 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 는 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 수 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 염 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 뿌 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 리 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 로 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 되 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 어 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 있 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 다 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 줄 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 기 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 은 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 대 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 체 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 로 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 속 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 이 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 비 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 어 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 있 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 고 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 둥 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 글 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 며 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 두 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 렷 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 한 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 마 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 디 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 節 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 가 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 있 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 다 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 잎 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 葉 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 은 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 나 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 란 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 히 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 맥 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 줄 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 기 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 위 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 에 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 어 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 긋 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 나 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 게 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 열 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 로 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 각 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 마 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 디 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 에 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 하 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 나 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 씩 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 나 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 있 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 다 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 잎 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 은 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 잎 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 집 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 葉 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 革 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 肖 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 잎 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 몸 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 葉 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 身 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 잎 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 혀 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 葉 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 舌 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 잎 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 귀 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 葉 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 耳 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 로 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 구 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 성 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 되 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 어 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 있 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 다 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 꽃 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 차 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 례 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 花 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 序 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 는 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 수 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 상 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 穗 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 狀 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 원 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 추 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 圓 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 錐 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 또 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 는 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 총 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 상 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 總 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 狀 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 꽃 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 차 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 례 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 로 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 되 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 어 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 있 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 다 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 꽃 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 은 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 개 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 의 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 수 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 술 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 雄 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 蘂 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 개 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 의 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 인 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 피 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 鱗 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 被 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 및 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 암 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 술 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 雌 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 蘂 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 로 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 되 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 어 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 있 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 으 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 며 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 바 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 깥 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 족 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 은 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 내 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 영 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 內 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 穎 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 과 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 외 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 영 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 外 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 穎 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 장 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 으 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 로 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 되 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 어 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 있 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 다 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 열 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 매 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 는 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 씨 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 방 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 벽 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 子 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 房 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 壁 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 에 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 융 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 합 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 되 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 어 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 있 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 는 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 하 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 나 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 의 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 종 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 자 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 를 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 가 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 지 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 고 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 있 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 다 in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no 형 in font [lmroman12-bold]:mapping=tex-text;!
 Missing character: There is no 태 in font [lmroman12-bold]:mapping=tex-text;!
 Missing character: There is no 적 in font [lmroman12-bold]:mapping=tex-text;!
 Missing character: There is no 특 in font [lmroman12-bold]:mapping=tex-text;!
 Missing character: There is no 성 in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no 방 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 석 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 형 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 과 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 다 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 발 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 형 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 벼 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 과 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 목 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 초 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 의 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 증 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 식 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 방 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 법 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 종 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 자 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 영 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 양 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 체 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 분 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 얼 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 지 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 하 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 경 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 포 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 복 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 경 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 비 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 늘 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 뿌 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 리 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 鱗 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 莖 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 방 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 석 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 형 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 지 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 하 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 경 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 地 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 下 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 莖 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 땅 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 속 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 기 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 는 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 줄 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 기 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 이 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 나 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 포 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 복 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 경 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 匍 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 匐 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 莖 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 땅 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 위 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 기 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 는 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 줄 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 기 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 이 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 있 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 는 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 초 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 종 in font [lmroman10-regular]:mapping=tex-text;!
 [9
 
 ]
-Missing character: There is no 형 in font [lmromanslant10-regular]:mapping=tex-t
+Missing character: There is no 벼 in font [lmromanslant10-regular]:mapping=tex-t
 ext;!
-Missing character: There is no 태 in font [lmromanslant10-regular]:mapping=tex-t
+Missing character: There is no 과 in font [lmromanslant10-regular]:mapping=tex-t
 ext;!
-Missing character: There is no 적 in font [lmromanslant10-regular]:mapping=tex-t
+Missing character: There is no 및 in font [lmromanslant10-regular]:mapping=tex-t
 ext;!
-Missing character: There is no 특 in font [lmromanslant10-regular]:mapping=tex-t
+Missing character: There is no 콩 in font [lmromanslant10-regular]:mapping=tex-t
 ext;!
-Missing character: There is no 성 in font [lmromanslant10-regular]:mapping=tex-t
+Missing character: There is no 과 in font [lmromanslant10-regular]:mapping=tex-t
+ext;!
+Missing character: There is no 작 in font [lmromanslant10-regular]:mapping=tex-t
+ext;!
+Missing character: There is no 물 in font [lmromanslant10-regular]:mapping=tex-t
 ext;!
 [10
 
@@ -2379,25 +2822,25 @@ Missing character: There is no 자 in font [lmroman10-regular]:mapping=tex-text;
 Missing character: There is no 생 in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no 산 in font [lmroman10-regular]:mapping=tex-text;!
 No file forage-science.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 208.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 271.
 [13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 208.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 271.
 (./forage-science.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 208.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 208.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 271.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 271.
 Package rerunfilecheck Info: File `forage-science.out' has not changed.
-(rerunfilecheck)             Checksum: F51E112D4ACC6D74EEE5405B151915C6.
+(rerunfilecheck)             Checksum: C6148192FB3E1A41423D18DAB3F35585.
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 22068 strings out of 494921
- 404298 string characters out of 6174292
- 498644 words of memory out of 5000000
- 25797 multiletter control sequences out of 15000+600000
+ 22505 strings out of 494921
+ 421113 string characters out of 6174292
+ 515556 words of memory out of 5000000
+ 26234 multiletter control sequences out of 15000+600000
  545057 words of font info for 54 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 45i,4n,68p,811b,443s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,4n,68p,811b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on forage-science.pdf (13 pages).
