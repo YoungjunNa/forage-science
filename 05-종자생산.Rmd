@@ -1,3 +1,1 @@
-# 종자생산  
-
-종자 생산
+# Seed production
