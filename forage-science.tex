@@ -31,46 +31,6 @@
 \urlstyle{same}  % don't use monospace font for urls
 \usepackage{natbib}
 \bibliographystyle{apalike}
-\usepackage{color}
-\usepackage{fancyvrb}
-\newcommand{\VerbBar}{|}
-\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
-\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
-% Add ',fontsize=\small' for more characters per line
-\usepackage{framed}
-\definecolor{shadecolor}{RGB}{248,248,248}
-\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
-\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
-\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
-\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\ImportTok}[1]{#1}
-\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
-\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
-\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
-\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
-\newcommand{\BuiltInTok}[1]{#1}
-\newcommand{\ExtensionTok}[1]{#1}
-\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
-\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
-\newcommand{\RegionMarkerTok}[1]{#1}
-\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
-\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
-\newcommand{\NormalTok}[1]{#1}
 \usepackage{longtable,booktabs}
 \usepackage{graphicx,grffile}
 \makeatletter
@@ -320,7 +280,7 @@
 
 \section{식물학적 분류}\label{-}
 
-\includegraphics{figures/kingdom.png}
+\includegraphics[width=400]{figures/kingdom}
 
 \section{형태에 의한 분류}\label{--}
 
@@ -341,13 +301,63 @@
 
 \subsection{벼과 사료작물}\label{-}
 
-\begin{Shaded}
-\begin{Highlighting}[]
-\NormalTok{knitr}\OperatorTok{::}\KeywordTok{include_graphics}\NormalTok{(}\StringTok{"figures/grass1.png"}\NormalTok{)}
-\end{Highlighting}
-\end{Shaded}
+\subsubsection{벼과 사료작물의 특성}\label{--}
 
-\includegraphics{figures/grass1.png}
+\begin{itemize}
+\tightlist
+\item
+  사료작물의 약 75\% 점유
+\item
+  전세계적으로 600속, 약 5,000종 분포
+\item
+  \emph{Poaceae}과(벼과) 작물(\emph{Gramineae})
+\item
+  초본류 식물, 종자생산, 목질조직 발달미약
+\item
+  외떡잎 식물
+\item
+  다양한 초종의 분포
+\item
+  수량이 많고 방목이나 채초용으로 적합
+\item
+  재생력이 강하다
+\item
+  기호성이 좋고 영양가가 높다
+\end{itemize}
+
+\includegraphics[width=400]{figures/grass1}
+
+\subsubsection{벼과 목초의 일반적인 특징}\label{---}
+
+\begin{itemize}
+\tightlist
+\item
+  수염모양의 root system
+\item
+  줄기(stems)는 속이 비어있다
+\item
+  명확한 마디(node) 보유
+\item
+  잎(leaves)은 나란히맥이며, 마디마다 1잎씩 어긋난 형태
+\item
+  잎은 잎집(sheath), 잎몸(blade), 잎혀 (ligule), 잎귀(auricle)로 구성
+\item
+  꽃차례는 수상, 원추, 총상 꽃차례로 구성
+\item
+  꽃(flowers)은 3(1\textasciitilde{}3)개의 수술(雄蘂;stamen), 2개의
+  인피(鱗被;lodicules), 1개의 암술(雌蘂;pistil)로 되어 있고 바깥쪽은
+  내영(內穎; palea)과 외영(外穎;lemma)으로 되어 있다
+\item
+  일반적으로 외영은 1개의 까끄라기(awn)를 가지고 비스듬히 기울어져 있다
+\item
+  열매(fruit)는 씨방벽(子房壁;ovary wall)에 융합되어 있는 하나의 종자를
+  가지고 있다
+\item
+  종자, 영양체(분얼,Tillering), 포복경(stolon), 지하경 (rhizome)에 의한
+  번식
+\end{itemize}
+
+\includegraphics[width=300]{figures/grass2}
 
 \section{기상연한에 의한 분류}\label{--}
 

@@ -1,3 +1,28 @@
+---
+title: "Forage science"
+author: "김명화, 조무환, 나영준"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+description: "Forage and grassland science"
+---
+
+# Welcome {-}
+
+초지 및 사료작물학 강의자료입니다.
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```
+
+<!--chapter:end:index.Rmd-->
+
 # Introduction {#intro}  
 
 사료는 가축이나 가금 따위에게 주는 먹이를 말한다. 가축이 생명유지 및 생산활동에 필요로 하는 각종 영양소를 함유하고 있는 유기 또는 무기의 물질로 일반적으로 조사료, 농후사료, 특수사료로 나눈다(축산학적 의미). 「축산법」에 따른 가축이나 그 밖에 농림축산식품부장관이 정하여 고시하는 동물·어류 등에 영양이 되거나 그 건강유지 또는 성장에 필요한 것으로서 단미사료·배합사료 및 보조사료를 말한다. 다만, 동물용의약으로서 섭취하는 것을 제외한다(사료관리법).
@@ -79,4 +104,106 @@ knitr::include_graphics("figures/classification.png")
 
 
 
+
+
+<!--chapter:end:01-intro.Rmd-->
+
+# Classification {#classification}
+
+## 식물학적 분류
+```{r echo=FALSE, out.width=400}
+knitr::include_graphics("figures/kingdom.png")
+```
+
+## 형태에 의한 분류
+- 벼(화본)과 사료작물: orchardgrass, timothy, tall fescue, 보리, 옥수수, 밀, 벼, 수수, 피, 조
+- 콩(두)과 사료작물: clover류, birdsfoot trefoil, vetch류, 콩, 완두
+- 국과 사료작물: 해바라기, 돼지감자 등  
+- 십자화과 사료작물: 일반근채류(순무, 당근, 루타바카), 유채, 양배추
+- 기타: 고구마 등
+
+### 벼과 사료작물
+#### 벼과 사료작물의 특성
+- 사료작물의 약 75% 점유
+- 전세계적으로 600속, 약 5,000종 분포
+- *Poaceae*과(벼과) 작물(*Gramineae*)
+- 초본류 식물, 종자생산, 목질조직 발달미약
+- 외떡잎 식물
+- 다양한 초종의 분포 
+- 수량이 많고 방목이나 채초용으로 적합
+- 재생력이 강하다
+- 기호성이 좋고 영양가가 높다
+
+```{r echo=FALSE, out.width=400}
+knitr::include_graphics("figures/grass1.png")
+```
+
+#### 벼과 목초의 일반적인 특징
+- 수염모양의 root system 
+- 줄기(stems)는 속이 비어있다
+- 명확한 마디(node) 보유
+- 잎(leaves)은 나란히맥이며, 마디마다 1잎씩 어긋난 형태
+- 잎은 잎집(sheath), 잎몸(blade), 잎혀 (ligule), 잎귀(auricle)로 구성
+- 꽃차례는 수상, 원추, 총상 꽃차례로 구성
+- 꽃(flowers)은 3(1~3)개의 수술(雄蘂;stamen), 2개의 인피(鱗被;lodicules), 1개의 암술(雌蘂;pistil)로 되어 있고 바깥쪽은 내영(內穎; palea)과 외영(外穎;lemma)으로 되어 있다
+- 일반적으로 외영은 1개의 까끄라기(awn)를 가지고 비스듬히 기울어져 있다
+- 열매(fruit)는 씨방벽(子房壁;ovary wall)에 융합되어 있는 하나의 종자를 가지고 있다
+- 종자, 영양체(분얼,Tillering), 포복경(stolon), 지하경 (rhizome)에 의한 번식
+
+```{r echo=FALSE, out.width=300}
+knitr::include_graphics("figures/grass2.png")
+```
+
+
+## 기상연한에 의한 분류
+## 생존연한에 의한 분류
+## 이용형태에 의한 분류
+
+
+<!--chapter:end:02-classification.Rmd-->
+
+# Grass and legume {#legumeandgrass} 
+  
+## 벼과 사료작물
+
+### 가축사료로서의 중요성
+- 기호성이 우수하고 영양가가 높다
+- 방목지나 채초지의 사초로써 그 가치가 높다
+- 방목과 채초시 견디는 힘이 가장 강하다
+- 전 세계적으로 가장 널리 분포하고 있다(600屬 5,000種).
+- 가장 우세하게 자라며 중요 곡류의 대부분을 차지한다.
+- 벼과를 "Gramineae"라 부르며 "벼과(Poaceae)"와 "대과(Bambusaceae)"로 나누기도 한다.
+- 영어로는 "grasses"라 하나 禾穀類(cereals)를 포함할 때는 "forage grasses"라 한다.
+
+### 일반적 특성
+- 뿌리(根系; root system)는 수염뿌리로 되어 있다.
+- 줄기(stem)은 대체로 속이 비어있고 둥글며, 두렷한 마디(節; node)가 있다.
+- 잎(葉, leaves)은 나란히 맥, 줄기위에 어긋나게 2열로 각 마디에 하나씩 나 있다.
+- 잎은 잎집(葉革+肖;sheath), 잎몸(葉身;blade), 잎혀(葉舌;ligule), 잎귀(葉耳;auricle)로 구성되어 있다.
+- 꽃차례(花序;inflorescence)는 수상(穗狀;spike), 원추(圓錐;panicle) 또는 총상(總狀;raceme) 꽃차례로 되어 있다.
+- 꽃(flowers)은 3(1~3)개의 수술(雄蘂;stamen), 2개의 인피(鱗被;lodicules) 및 암술(雌蘂;pistil)로 되어 있으며 바깥족은 내영(內穎;lemma)과 외영(外穎;palea) 2장으로 되어 있다.
+- 열매(fruit)는 씨방벽(子房壁;ovary wall)에 융합되어 있는 하나의 종자를 가지고 있다.
+
+### 형태적 특성
+- 방석형과 다발형
+벼과 목초의 증식방법 : 종자, 영양체[분얼, 지하경, 포복경, 비늘뿌리(鱗莖, haplocorm or corm)]
+- 방석형(sod former)
+지하경(地下莖, 땅속기는줄기, Rhizomes)이나 포복경(匍匐莖, 땅위기는줄기, Stolons)이 있는 초종
+
+<!--chapter:end:03-characteristics.Rmd-->
+
+# Distinguishment  
+
+
+<!--chapter:end:04-distinguish.Rmd-->
+
+# Seed production
+
+<!--chapter:end:05-seed.Rmd-->
+
+`r if (knitr::is_html_output()) '
+# References {-}
+'`
+
+<!--chapter:end:06-references.Rmd-->
 
