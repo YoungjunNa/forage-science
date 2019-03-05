@@ -1,18 +1,18 @@
 ---
 title: "Forage science"
-author: "조무환, 나영준"
+author: "김명화, 조무환, 나영준"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
-description: "Forage science"
+description: "Forage and grassland science"
 ---
 
 # Welcome {-}
 
-초지 및 사료작물학 강의자료
+초지 및 사료작물학 강의자료입니다.
 
 ```{r include=FALSE}
 # automatically create a bib database for R packages
